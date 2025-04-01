@@ -1,0 +1,8 @@
+SOURCE = MEMRORY_MANAGEMENT/circ_buffer.c
+
+all: 
+	gcc -std=c11 -Wall $(SOURCE) -o BUILD/RESULT
+	BUILD/RESULT.exe
+remove: 
+	rm BUILD/RESULT.exe
+
