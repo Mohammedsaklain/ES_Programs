@@ -1,4 +1,4 @@
-SOURCE = MEMRORY_MANAGEMENT/circ_buffer.c
+SOURCE = MEMORY_MANAGEMENT/circ_buffer.c
 
 all: 
 	gcc -std=c11 -Wall $(SOURCE) -o BUILD/RESULT
