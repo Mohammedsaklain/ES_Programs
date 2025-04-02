@@ -3,7 +3,7 @@
 #include<stdio.h>
 int main()
 {
-  //Using Extra Memory Space:
+//Using Extra Memory Space:
 int num1=20, num2=30, temp;
 temp = num1;
 num1 = num2;
