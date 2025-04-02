@@ -1,3 +1,5 @@
+/*Implement a function to reverse the bits*/
+
 #include <stdio.h>
 #include <stdint.h>
 
