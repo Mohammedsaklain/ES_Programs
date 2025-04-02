@@ -1,6 +1,6 @@
 /* Implement a simple circular buffer (FIFO) for storing and retrieving bytes*/
 
-/* 1. const uint8_t * PTR ---> You can change the pointer to point to different uint8_t values, 
+/* 1. const uint8_t * PTR ---> You can change the pointer to point to different address, 
                                but you cannot change the uint8_t value that the pointer currently points to. 
                                The data being pointed to is read-only through this pointer.*/
 
