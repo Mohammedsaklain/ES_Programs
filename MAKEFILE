@@ -1,4 +1,4 @@
-SOURCE = BIT_MANIPULATION/smallest_power_of_2.c
+SOURCE = MEMORY_MANAGEMENT/mem_pool_allocator.c
 
 all: 
 	gcc -std=c11 -Wall $(SOURCE) -o BUILD/RESULT
