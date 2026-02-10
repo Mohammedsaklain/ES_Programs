@@ -1,0 +1,5 @@
+1. GCC: GNU Compiler Collection
+2. Use of "-Wall": Stands for "Warning All". Tells the GCC to enable the large set of commonly useful warning messages.
+3. Use of "-Wextra": It enables even more warning messages which are not included by the "-Wall"
+4. Use of ggdb: Compiles code for debugging. 
+5. $< -o $@ tells that: $<(takes from Source) -o $@(To the destination)

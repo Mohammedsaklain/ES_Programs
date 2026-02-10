@@ -61,7 +61,7 @@ uint8_t circ_buff_pop(circ_buff_str *SP, uint8_t *data)
     {
         next =0;
     }
-    if(SP->head==SP->tail)  // If head & Tail is same, we don't have Data 
+    if(SP->head==SP->tail)      // If head & Tail is same, we don't have Data 
     {
         return -1;
     }
